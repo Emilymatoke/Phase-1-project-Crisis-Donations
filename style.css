@@ -1,0 +1,16 @@
+.parent-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .image{
+    object-fit: fill;
+    width: 360px;
+    height: 240px;
+  }
+  
+  #deleteCounty{
+    visibility: hidden;
+  }
